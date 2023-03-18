@@ -13,10 +13,37 @@ body {
 }
 
 .container {
+  width: 100%;
+  max-width: 22rem;
+  margin: 3rem auto;
+  background-color: hsl(0, 0%, 100%);
+  justify-content: center;
+  padding: 1rem 1rem 3rem;
+  border-radius: 1rem;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.caption {
+  text-align: center;
+  width: 95%;
+}
+
+.caption h2 {
+  color: hsl(218, 44%, 22%);
+  margin: 1.5rem 0;
+}
+
+.caption p {
+  color: hsl(220, 15%, 55%);
+  padding: 0 1rem;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.8rem;
   text-align: center;
 }
 .attribution a {
