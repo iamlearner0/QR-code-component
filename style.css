@@ -12,7 +12,7 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-.container {
+main {
   width: 100%;
   max-width: 22rem;
   margin: 3rem auto;
@@ -22,7 +22,7 @@ body {
   border-radius: 1rem;
 }
 
-.container img {
+main img {
   width: 100%;
   border-radius: 1rem;
 }
@@ -42,10 +42,10 @@ body {
   padding: 0 1rem;
 }
 
-.attribution {
+footer {
   font-size: 0.8rem;
   text-align: center;
 }
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
